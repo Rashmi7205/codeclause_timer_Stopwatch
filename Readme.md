@@ -1,27 +1,44 @@
 # CodeClause Timer/Stopwatch
 
-Language Used : HTML ,CSS (tailwindcss) , Javascript.
 
 ## Introduction
 
-This is a simple timer/stopwatch application built using [insert technology or language here] that allows users to [briefly describe what the application does].
+CodeClause Timer/Stopwatch is a versatile web-based time management tool that allows you to track time, manage tasks, and measure performance easily. Whether you need to monitor your work sessions, time your workouts, or track laps during a race, this application has got you covered.
+
+Access the live application: [CodeClause Timer/Stopwatch](https://rashmi7205.github.io/codeclause_timer_Stopwatch/)
 
 ## Features
 
-- [List the key features and functionalities of your application]
-- [E.g., Start, stop, and reset the timer/stopwatch]
-- [E.g., Record lap times]
-- [E.g., Customize timer settings]
+- **Timer and Stopwatch Modes:** Switch between timer and stopwatch modes to suit your needs.
+- **Start, Stop, and Reset:** Control the timer/stopwatch with intuitive buttons.
+- **Lap Recording:** Record lap times with a single click.
+- **Customizable Settings:** Adjust timer settings to tailor it to your requirements.
 
 ## Getting Started
 
-[Provide instructions on how to install and run your application. Include any dependencies or system requirements.]
+### Usage
 
-```bash
-# Clone the repository
-git clone https://github.com/Rashmi7205/codeclause_timer_Stopwatch.git
+1. Open the [CodeClause Timer/Stopwatch](https://rashmi7205.github.io/codeclause_timer_Stopwatch/) web application in your browser.
 
-# Change directory
-cd codeclause_timer_Stopwatch
+2. Choose between the Timer and Stopwatch modes using the toggle switch.
 
-# [Include any additional setup steps here]
+3. Click the "Start" button to begin the timer/stopwatch.
+
+4. Use the "Stop" button to pause the timer/stopwatch as needed.
+
+5. To record lap times (in Stopwatch mode), click the "Lap" button. Lap times will be displayed below the main timer.
+
+6. Click the "Reset" button to start over or switch between Timer and Stopwatch modes.
+
+
+## Acknowledgments
+
+We'd like to express our gratitude to the open-source community and the following libraries/tools that made this project possible:
+
+- [List any libraries, frameworks, or tools you used.]
+
+## Contact
+
+If you have any questions, suggestions, or feedback, please don't hesitate to reach out:
+
+- GitHub: [Your GitHub Profile](https://github.com/YourGitHubProfile)
