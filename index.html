@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Simple Timer and Stopwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./input.css"/>
+</head>
+<body class="w-full flex md:flex-row flex-col bg-[#213555] h-[100vh]"> 
+   <!-- Navbar section start Here -->
+    <div class="w-full md:w-1/5  h-[70px] flex items-center justify-center " >
+        <div class="w-3/5 h-[50px]  bg-slate-300 flex itmes-center justify-around rounded-2xl shadow-md">
+            <button class="text-lg font-semibold  text-black bg-white"
+            id="timer_btn"  
+            >Timer</button>
+            <button 
+            id="stopwatch_btn"
+            >Stopwatch</button>
+        </div>
+   </div>
+   <!-- nav bar eb=nds here -->
+   <!-- Hero section start -->
+   <div class="w-3/5 h-full flex items-center justify-center">
+        <div class="w-4/5 bg-slate-800 h-3/5 text-white flex flex-col items-center justify-around rounded-lg shadow-xl">
+            <p class="text-8xl text-orange-700" id="stop_watch">00 : 00 : 00 </p>
+            <div class="w-full flex items-center justify-around font-semibold text-xl">
+                <button id="start" class="px-5 py-3 bg-orange-400 rounded-md">Start</button>
+                <button id="lap"  class="px-5 py-3 bg-orange-400 rounded-md">Lap</button>
+                <button id="reset"  class="px-5 py-3 bg-orange-400 rounded-md">Reset</button>
+            </div>
+        </div>
+   </div>
+   <!-- Hero section end -->
+</body>
+<script src="./script.js">
+</script>
+</html>
