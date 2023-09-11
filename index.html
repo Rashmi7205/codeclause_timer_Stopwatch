@@ -14,25 +14,47 @@
    <!-- Navbar section start Here -->
     <div class="w-full md:w-1/5  h-[70px] flex items-center justify-center " >
         <div class="w-3/5 h-[50px]  bg-slate-300 flex itmes-center justify-around rounded-2xl shadow-md">
-            <button class="text-lg font-semibold  text-black bg-white"
-            id="timer_btn"  
-            >Timer</button>
             <button 
             id="stopwatch_btn"
             >Stopwatch</button>
+            <button class="text-lg font-semibold  text-black"
+            id="timer_btn"  
+            >Timer</button>
+            
         </div>
    </div>
    <!-- nav bar eb=nds here -->
    <!-- Hero section start -->
-   <div class="w-3/5 h-full flex items-center justify-center">
-        <div class="w-4/5 bg-slate-800 h-3/5 text-white flex flex-col items-center justify-around rounded-lg shadow-xl">
-            <p class="text-8xl text-orange-700" id="stop_watch">00 : 00 : 00 </p>
+   <div class=" w-full md:w-3/5 h-full flex items-center justify-center relative">
+
+        <div  id="set_time" class="w-3/5 h-3/5 absolute top-[-100%] left-[25%] z-50 bg-red-500 transition-all ease-in-out duration-200 flex flex-col items-center justify-center">
+            <div class="w-3/5 h-1/5 flex items-center justify-around text-sm">
+                <input type="number" min="0" max="60" placeholder="hour" id="timer_hrs"/>
+                <input type="number" min="0" max="60" placeholder="min" id="timer_min"/>
+                <input type="number" min="0" max="60" placeholder="sec" id="timer_sec"/>
+            </div>
+            <button id="settime" class="px-10 py-3 bg-cyan-500 ">
+                        setime
+            </button>
+        </div>
+        <div class="w-4/5 bg-slate-800 h-3/5 text-white flex flex-col items-center justify-around rounded-lg shadow-xl absolute"
+        id="stop_watch_display"
+        >
+            <p class=" text-2xl md:text-8xl text-orange-700" id="stop_watch">00 : 00 : 00 </p>
             <div class="w-full flex items-center justify-around font-semibold text-xl">
-                <button id="start" class="px-5 py-3 bg-orange-400 rounded-md">Start</button>
-                <button id="lap"  class="px-5 py-3 bg-orange-400 rounded-md">Lap</button>
-                <button id="reset"  class="px-5 py-3 bg-orange-400 rounded-md">Reset</button>
+                <button id="start" class=" px-2 py-1 md:px-5 md:py-3 bg-orange-400 rounded-md">Start</button>
+                <button id="lap"  class="px-2 py-1 md:px-5 md:py-3 bg-orange-400 rounded-md">Lap</button>
+                <button id="reset"  class="px-2 py-1 md:px-5 md:py-3 bg-orange-400 rounded-md">Reset</button>
             </div>
         </div>
+        <div  id="timer_display" class="w-4/5 bg-slate-800 h-3/5 text-white flex flex-col items-center justify-around rounded-lg shadow-xl absolute hidden">
+            <p class="text-3xl md:text-8xl text-orange-700" id="timer_watch">00 : 00 : 00 </p>
+            <div class="w-full flex items-center justify-around font-semibold text-xl">
+                <button id="set_timer" class="px-2 py-1 md:px-5 md:py-3 bg-orange-400 rounded-md">Set Timer</button>
+                <button id="timer_reset"  class="px-2 py-1 md:px-5 md:py-3 bg-orange-400 rounded-md">Reset</button>
+            </div>
+        </div>
+       
    </div>
    <!-- Hero section end -->
 </body>
