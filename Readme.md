@@ -31,14 +31,5 @@ Access the live application: [CodeClause Timer/Stopwatch](https://rashmi7205.git
 6. Click the "Reset" button to start over or switch between Timer and Stopwatch modes.
 
 
-## Acknowledgments
+Happy Coding ❤️
 
-We'd like to express our gratitude to the open-source community and the following libraries/tools that made this project possible:
-
-- [List any libraries, frameworks, or tools you used.]
-
-## Contact
-
-If you have any questions, suggestions, or feedback, please don't hesitate to reach out:
-
-- GitHub: [Your GitHub Profile](https://github.com/YourGitHubProfile)
